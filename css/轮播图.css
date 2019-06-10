@@ -1,0 +1,76 @@
+/*顶部*/                                      
+.head{                                      
+	background-color:black;height: 50px;
+	
+  } 
+
+  /*轮播图*/                                      
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	img{100%}
+        .li_img {
+            float: left;          
+        }
+
+        .ul_img {
+            width:2000%;
+            /*height: 200px;*/
+            padding: 0px;
+            margin: 0px;
+            transition: all 2s;
+        }
+
+     .main_div {
+        	position: absolute;    
+            width:100%;
+           /* left: -4px;*/
+            height:648px;
+            /*top: 51px;*/
+            z-index: 1;
+            overflow: hidden;
+            /*border: #FF0000 3px solid;*/               
+        }
+
+        .arrows {        
+            position: absolute;
+            top:266px;
+            margin-left:7%;
+            width:87%;
+            z-index:2;
+        }
+
+        .arrows span {
+            font-size: 3em;
+            color: seashell;
+          
+        }
+
+        .arrows span:hover {
+            /*变小手*/
+            cursor: pointer;
+            background-color:red; 
+        }
+
+        .div_btn {
+            float: left;
+            border-radius: 100px;
+            background-color:aquamarine;
+            width:7%;
+            height: 15px;                  
+            margin-left:1%;
+            margin-top:28%;
+            
+        
+        }
+        .div_btn:hover {
+            background-color:red;
+        }
+        /*.title{
+        	width: 400px;
+        	position: absolute;
+        	margin-top: 145px;
+        	margin-left:432px ;
+        	font-size: 100px;               
+        }*/
